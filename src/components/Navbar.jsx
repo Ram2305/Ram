@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/Ram2305'
+              href='https://github.com/RamaRaju-vj/RamaRaju-vj'
             >
               Github <FaGithub size={30} />
             </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1vJZ7U1gY19JArYuuwJIt5EnC2tVsdKfn/view?usp=sharing' 
+              href='https://drive.google.com/file/d/1yvYPK-1jXzIpcqOzCIhybje7wtUzWMZz/view?usp=sharing' 
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

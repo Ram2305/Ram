@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Ram/static/css/main.b6b19490.css",
-    "main.js": "/Ram/static/js/main.a8c185d9.js",
-    "static/media/realestate.jpg": "/Ram/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "main.js": "/Ram/static/js/main.f97a733b.js",
+    "static/media/ed.png": "/Ram/static/media/ed.c17e8f74a5506e7c4e84.png",
     "static/media/kubernetes.png": "/Ram/static/media/kubernetes.094539ea474c8d4ec84f.png",
-    "static/media/workImg.jpeg": "/Ram/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/cloudNative.jpeg": "/Ram/static/media/cloudNative.f1308278845a9de82e4e.jpeg",
     "static/media/react.png": "/Ram/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/aws.png": "/Ram/static/media/aws.95bdee6b9922c9b94fd5.png",
     "static/media/node.png": "/Ram/static/media/node.952a9ea986dcfa5229ad.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/Ram/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Ram/index.html",
     "main.b6b19490.css.map": "/Ram/static/css/main.b6b19490.css.map",
-    "main.a8c185d9.js.map": "/Ram/static/js/main.a8c185d9.js.map"
+    "main.f97a733b.js.map": "/Ram/static/js/main.f97a733b.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b19490.css",
-    "static/js/main.a8c185d9.js"
+    "static/js/main.f97a733b.js"
   ]
 }

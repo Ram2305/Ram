@@ -42,7 +42,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1yvYPK-1jXzIpcqOzCIhybje7wtUzWMZz/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1vcK9djdN4OI7uzNptoYjGhQ9Md-nCkpk/view?usp=sharing' target="_blank" rel="noopener noreferrer">
               <BsFillPersonLinesFill className="text-pink-500 text-2xl" />
             </a>
           </li>

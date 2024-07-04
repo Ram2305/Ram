@@ -17,7 +17,7 @@ const Home = () => {
           V.J.Rama Raju
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-         "☁️ ♾️Cloud & DevOps" < br /> - Fresher
+         "☁️ ♾️Cloud & DevOps" < br />
         </h2>
 
 

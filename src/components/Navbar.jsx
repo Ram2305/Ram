@@ -19,9 +19,9 @@ const Navbar = () => {
       <div className='hidden md:flex items-center space-x-6'>
         <ul className='flex items-center space-x-6'>
           <li><Link to='home' smooth={true} duration={500}>Home</Link></li>
-          <li><Link to='about' smooth={true} duration={500}>About</Link></li>
           <li><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
           <li><Link to='Projects' smooth={true} duration={500}>Projects</Link></li>
+          <li><Link to='Experience' smooth={true} duration={500}>Experience</Link></li>
           <li><Link to='contact' smooth={true} duration={500}>Contact</Link></li>
         </ul>
         {/* Social Icons */}
@@ -42,7 +42,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1vcK9djdN4OI7uzNptoYjGhQ9Md-nCkpk/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1jgxuCH8S9Pv1FrEd0of8bWfE5ZlVereY/view?usp=sharing' target="_blank" rel="noopener noreferrer">
               <BsFillPersonLinesFill className="text-pink-500 text-2xl" />
             </a>
           </li>
@@ -56,9 +56,9 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <ul className={`${nav ? 'flex' : 'hidden'} absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex-col justify-center items-center`}>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link></li>
-        <li className='py-6 text-4xl'><Link onClick={handleClick} to='about' smooth={true} duration={500}>About</Link></li>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>Skills</Link></li>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to='Projects' smooth={true} duration={500}>Projects</Link></li>
+        <li className='py-6 text-4xl'><Link onClick={handleClick} to='Experience' smooth={true} duration={500}>Experience</Link></li>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link></li>
         
         {/* Social Icons */}
@@ -78,7 +78,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className='pt-6 text-3xl'>
-          <a href='https://drive.google.com/file/d/1yvYPK-1jXzIpcqOzCIhybje7wtUzWMZz/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+          <a href='https://drive.google.com/file/d/1jgxuCH8S9Pv1FrEd0of8bWfE5ZlVereY/view?usp=sharing' target="_blank" rel="noopener noreferrer">
             <BsFillPersonLinesFill />
           </a>
         </li>

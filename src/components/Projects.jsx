@@ -16,91 +16,65 @@ const Projects = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Grid items */}
                     {data.map((item, index) => (
-                        item.id === 3 ? (
-                            <div
-                                key={index}
-                                style={{
-                                    backgroundImage: `url(${item.image})`,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                }}
-                                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-                            >
-                                {/* Hover effect for images */}
-                                <div className="opacity-0 group-hover:opacity-100 text-center p-8">
-                                    <span className="text-2xl font-bold text-white tracking-wider">
-                                        {item.name}
-                                    </span>
-                                    <div className="pt-8">
-                                        {item.github1 && (
+                        <div
+                            key={index}
+                            style={{
+                                backgroundImage: `url(${item.image})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                            }}
+                            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+                        >
+                            {/* Hover effect for images */}
+                            <div className="opacity-0 group-hover:opacity-100 text-center p-8">
+                                <span className="text-2xl font-bold text-white tracking-wider">
+                                    {item.name}
+                                </span>
+                                <div className="pt-8">
+                                    {/* Conditional rendering of buttons based on ID */}
+                                    {item.id === 1 && (
+                                        <>
+                                            <a href={item.github1} target="_blank" rel="noopener noreferrer">
+                                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                                    Webapp Code
+                                                </button>
+                                            </a>
+                                            <a href={item.github2} target="_blank" rel="noopener noreferrer">
+                                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                                    Infra Code
+                                                </button>
+                                            </a>
+                                        </>
+                                    )}
+                                    {item.id === 2 && (
+                                        <>
                                             <a href={item.github1} target="_blank" rel="noopener noreferrer">
                                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                                     EKS Infra Code
                                                 </button>
                                             </a>
-                                        )}
-                                        {item.github2 && (
                                             <a href={item.github2} target="_blank" rel="noopener noreferrer">
                                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                                     AMI Jenkins Code
                                                 </button>
                                             </a>
-                                        )}
-                                        {item.github3 && (
                                             <a href={item.github3} target="_blank" rel="noopener noreferrer">
                                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                                     Microservices Code
                                                 </button>
                                             </a>
-                                        )}
-                                    </div>
+                                        </>
+                                    )}
+                                    {item.id === 3 && (
+                                        <a href={item.github1} target="_blank" rel="noopener noreferrer">
+                                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                                RestAPI Code
+                                            </button>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
-                        ) : (
-                            <div
-                                key={index}
-                                style={{
-                                    backgroundImage: `url(${item.image})`,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                }}
-                                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-                            >
-                                {/* Hover effect for images */}
-                                <div className="opacity-0 group-hover:opacity-100 text-center p-8">
-                                    <span className="text-2xl font-bold text-white tracking-wider">
-                                        {item.name}
-                                    </span>
-                                    <div className="pt-8">
-                                        {/* Conditional rendering of buttons */}
-                                        {item.id === 2 ? (
-                                            <a href={item.github} target="_blank" rel="noopener noreferrer">
-                                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                                    Code
-                                                </button>
-                                            </a>
-                                        ) : (
-                                            <>
-                                                {item.github1 && (
-                                                    <a href={item.github1} target="_blank" rel="noopener noreferrer">
-                                                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                                            Webapp Code
-                                                        </button>
-                                                    </a>
-                                                )}
-                                                {item.github2 && (
-                                                    <a href={item.github2} target="_blank" rel="noopener noreferrer">
-                                                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                                            Infra Code
-                                                        </button>
-                                                    </a>
-                                                )}
-                                            </>
-                                        )}
-                                    </div>
-                                </div>
-                            </div>
-                        )
+                        </div>
                     ))}
                 </div>
             </div>

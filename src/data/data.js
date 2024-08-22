@@ -1,7 +1,7 @@
 import cloudNative from '../assets/projects/cloudNative.jpeg'
 import ed from '../assets/projects/ed.png'
 import microservice from '../assets/projects/microservice.jpeg'
-
+import GoRestApi from '../assets/projects/restapi.png'
 
 export const data=[
     {
@@ -12,15 +12,9 @@ export const data=[
         github2:"https://github.com/RamaRaju-vj/tf-gcp-infra",
         // live:"",
     },
+
     {
         id:2,
-        name:"E-commerce application deployment",
-        image:ed,
-        github:"https://github.com/Ram2305/E-commerce_application_deployment",
-        // live:"",
-    },
-    {
-        id:3,
         name:"Micro Service application",
         image:microservice,
         github1:"https://github.com/RamaRaju-personal-org/EKS-Infra/tree/main",
@@ -28,13 +22,13 @@ export const data=[
         github3:"https://github.com/RamaRaju-personal-org/microservices_project",
         // live:"",
     },
-    // {
-    //     id:4,
-    //     name:"React JS Application",
-    //     image:RealEst,
-    //     github:"",
-    //     live:"",
-    // },
+    {
+        id: 3,
+        name: "GoLang Events Resigration RestApi's",
+        image: GoRestApi,
+        github1: "https://github.com/RamaRaju-personal-org/Go_Events_resigration_RestApi",
+        // live:"",
+    }
 
 
 ]

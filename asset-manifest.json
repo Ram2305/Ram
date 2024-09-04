@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ram/static/css/main.90c24162.css",
-    "main.js": "/Ram/static/js/main.5ec47b6e.js",
+    "main.css": "/Ram/static/css/main.dbd8741d.css",
+    "main.js": "/Ram/static/js/main.d8d01d78.js",
     "static/media/ed.png": "/Ram/static/media/ed.c17e8f74a5506e7c4e84.png",
     "static/media/go.png": "/Ram/static/media/go.9fe1aae8e6c541dcde91.png",
     "static/media/restapi.png": "/Ram/static/media/restapi.9a0569b699669e0980b4.png",
@@ -23,11 +23,11 @@
     "static/media/ansible.png": "/Ram/static/media/ansible.cde9139acb91879c5628.png",
     "static/media/javascript.png": "/Ram/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Ram/index.html",
-    "main.90c24162.css.map": "/Ram/static/css/main.90c24162.css.map",
-    "main.5ec47b6e.js.map": "/Ram/static/js/main.5ec47b6e.js.map"
+    "main.dbd8741d.css.map": "/Ram/static/css/main.dbd8741d.css.map",
+    "main.d8d01d78.js.map": "/Ram/static/js/main.d8d01d78.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c24162.css",
-    "static/js/main.5ec47b6e.js"
+    "static/css/main.dbd8741d.css",
+    "static/js/main.d8d01d78.js"
   ]
 }
